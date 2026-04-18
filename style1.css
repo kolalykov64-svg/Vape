@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+}
+header h1{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+.v1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.products{
+display: grid;
+grid-template-columns: repeat(4, 250px);
+gap: 40px;
+justify-content: center;
+align-items: center;
+}
+.ml-30{
+width:250px;
+height: 400px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 50px;
+gap: 20px;
+border: rgb(0, 0, 0) 2px solid ;
+transition: transform 1s;
+}
+.ml-30 img{
+width: 233px;
+height: 233px;
+object-fit: cover;
+}
+.ml-30 p{
+width: 614px;
+font-weight: 400;
+font-size: 22px;
+}
+.ml-30:hover{
+transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
+}
+.ml-30 button:active{
+border-radius: 20px;
+}
+.ml-35{
+width: 250px;
+height: 400px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 50px;
+gap: 20px;
+border: rgb(0, 0, 0) 2px solid ;
+transition: transform 1s;
+}
+.ml-35 img{
+width: 235px;
+height: 235px;
+object-fit: cover;    
+}
+.ml-35 p{
+width: 614px;
+font-weight: 400;
+font-size: 22px;
+}
+.ml-35:hover{
+transform: scale(1.1) rotateX(-1deg) rotateY(1deg) translate(-1px, -1px);
+}
+.ml-35 button:active{
+border-radius: 20px;
+}
+.ml-30{
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.ml-35{
+  border: 2px solid black;
+  border-radius: 15px;
+}
